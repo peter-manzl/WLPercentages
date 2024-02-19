@@ -9,7 +9,7 @@ Builds the executable in the subdirectory dist using pyinstaller.
 The main python file. Requires numpy, PIL, and tkinter. It was tested in Windows using Python 3.10. 
 
 
-<img src="data\ExampleImage.png" alt="drawing" width="500"/> 
+<img src="Data\ExampleImage.png" alt="drawing" width="500"/> 
 
 
 
