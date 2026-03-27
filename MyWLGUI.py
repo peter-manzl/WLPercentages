@@ -87,6 +87,16 @@ class WLPercWindow():
             file.writelines(strPercentageList + ' # %\n')
             file.close() # to change file access modes
         return
+    
+    def stdSettings(self): 
+        myDictStandard = {'maxEntriesPerRow': 3,
+                          'numTopGrid': 7, 
+                          'fontSizeWeights': 16}    
+        return myDictStandard
+    
+    def readSettings(self):
+        
+        return
         
     def calculate_percentage(self): 
         # try:
